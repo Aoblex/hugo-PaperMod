@@ -57,6 +57,14 @@
     {{- end }}
   </footer>
 
+  <script src="https://utteranc.es/client.js"
+        repo="Aoblex/Aoblex.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
